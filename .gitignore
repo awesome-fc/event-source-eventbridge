@@ -1,0 +1,15 @@
+.fun
+.vscode
+out
+server
+node_modules
+*.vsix
+.DS_Store
+.vscode-test
+undefined
+target
+dist
+bin/
+.settings
+.classpath
+.project

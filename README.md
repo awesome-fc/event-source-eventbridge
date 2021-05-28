@@ -1,2 +1,2 @@
 # event-source-eventbridge
-EventBridge examples
+EventBridge examples show how to write functions to handle EventBridge events.

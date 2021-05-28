@@ -1,0 +1,15 @@
+ROSTemplateFormatVersion: '2015-09-01'
+Transform: 'Aliyun::Serverless-2018-04-03'
+Resources:
+  eventbridge-java-samples:
+    Type: 'Aliyun::Serverless::Service'
+    Properties:
+      Description: This is eventbridge-java-samples service
+    dumper:
+      Type: 'Aliyun::Serverless::Function'
+      Properties:
+        Handler: 'example.App::handleRequest'
+        Runtime: java8
+        Timeout: 60
+        MemorySize: 512
+        CodeUri: functions/eventbridge-java-samples/dumper
